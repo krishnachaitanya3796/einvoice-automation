@@ -1,0 +1,315 @@
+{
+  "ReferenceNumber": "UAE-INV-A15-27B",
+  "FinancialYear": "2026",
+  "edelivery": "Peppol",
+  "InvoiceID": "UAE-INV-A15-27B",
+  "IssueDate": "2026-04-10",
+  "DueDate": "2026-05-03",
+  "InvoiceTypeCode": "380",
+  "Note": "This is Tax Invoice",
+  "DocumentCurrencyCode": "AED",
+  "VATCurrencyCode": "",
+  "AccountingCost": "4014:245:211",
+  "BuyerReference": "abs1234",
+  "InvoicePeriod.StartDate": "2026-04-03",
+  "InvoicePeriod.EndDate": "2026-05-03",
+  "Invoicetransactiontypecode": "00000000",
+  "VATtaxpointdate": "2026-03-15",
+  "PrincipleID": "",
+  "BeneficiaryID": "",
+  "ExchangeRate": "",
+  "Purchaseorderreference": "PO98776",
+  "Salesorderreference": "SO1234567",
+  "Despatchadvicereference": "DESP9283746378",
+  "Receivingadvicereference": "RESP9876789",
+  "TotalVATamountinAccountingCurrency":"",
+  "Customsreferencenumber": "CUS9283",
+  "FrequencyofBilling": "MTH",
+  "BillingReference": [
+    {
+      "BillingReference.InvoiceDocumentReference.ID": "",
+      "BillingReference.InvoiceDocumentReference.IssueDate": "",
+      "Creditnotereasoncode": ""
+    }
+  ],
+  	"ContractDocumentReference": [{
+		"ContractDocumentReference.Number": "Contract-123",
+		"ReceiptAdviceRefr": "resp123",
+		"LotReference": "ppid-123",
+		"ProjectReference": ""
+	}],
+  "AdditionalDocumentDetails": [
+    {
+      "AdditionalDocumentReferenceID": "Test-PO-2025-87",
+      "SchemeID": "OP",
+      "DocumentTypecode": "130",
+      "DocumentDescription": "Test Purchase Order",
+      "EmbeddedDocumentBinaryObject": "JVBERi0xLjcNCiWhs8XXDQoxIDAgb2JqDQo8PC9QYWdlcyAyIDAgUiAvVHlwZS9DYXRhbG9nPj4NCmVuZG9iag0KMiAwIG9iag0KPDwvQ291bnQgMS9LaWRzWyA0IDAgUiBdL1R5cGUvUGFnZXM+Pg0KZW5kb2JqDQozIDAgb2JqDQo8PC9DcmVhdGlvbkRhdGUoRDoyMDI1MTAwOTEzMDQwOCkvQ3JlYXRvcihQREZpdW0pL1Byb2R1Y2VyKFBERml1bSk+Pg0KZW5kb2JqDQo0IDAgb2JqDQo8PC9Db250ZW50cyA1IDAgUiAvQ3JvcEJveFsgMCAwIDU5NS4yMTk5NyA4NDJdL01lZGlhQm94WyAwIDAgNTk1LjIxOTk3IDg0Ml0vUGFyZW50IDIgMCBSIC9SZXNvdXJjZXM8PC9FeHRHU3RhdGU8PC9HUzAgNiAwIFIgPj4vRm9udDw8L1RUMCA3IDAgUiA+Pi9Qcm9jU2V0Wy9QREYvVGV4dF0+Pi9Sb3RhdGUgMC9TdHJ1Y3RQYXJlbnRzIDAvVHlwZS9QYWdlPj4NCmVuZG9iag0KNSAwIG9iag0KPDwvRmlsdGVyL0ZsYXRlRGVjb2RlL0xlbmd0aCAxMTc+PnN0cmVhbQ0KSIlyCuHSD1CwsdH3dfZ0UTBQsLNzcnFW4NJ3DzZQSC/m0g8JMVAwVAhJ49I10DMwMAAykxVgrHIFQyOgFgMQZWmgYG5qoWdpZmCsEJLLpeFSmptbqRDg4qaQkl+el5OfmKKgGZLF5eoLNNw1hAsgwAAqeRugDQplbmRzdHJlYW0NCmVuZG9iag0KNiAwIG9iag0KPDwvT1AgZmFsc2UvT1BNIDEvU0EgZmFsc2UvU00gLjAyL1R5cGUvRXh0R1N0YXRlL29wIGZhbHNlPj4NCmVuZG9iag0KNyAwIG9iag0KPDwvQmFzZUZvbnQvVGltZXNOZXdSb21hblBTTVQvRW5jb2RpbmcvV2luQW5zaUVuY29kaW5nL0ZpcnN0Q2hhciAzMi9Gb250RGVzY3JpcHRvciA4IDAgUiAvTGFzdENoYXIgMTIxL1N1YnR5cGUvVHJ1ZVR5cGUvVHlwZS9Gb250L1dpZHRoc1sgMjUwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCA3MjIgMCA1NTYgMCAwIDAgMCAwIDAgMCAwIDAgNTU2IDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgNDQ0IDAgMCA1MDAgMCAwIDAgMCAwIDAgMCAyNzggNzc4IDUwMCA1MDAgMCAwIDAgMCAwIDUwMCAwIDcyMiAwIDUwMF0+Pg0KZW5kb2JqDQo4IDAgb2JqDQo8PC9Bc2NlbnQgODkxL0NhcEhlaWdodCA2NTYvRGVzY2VudCAtMjE2L0ZsYWdzIDM0L0ZvbnRCQm94WyAtNTY4IC0zMDcgMjAwMCAxMDA3XS9Gb250RmFtaWx5KFRpbWVzIE5ldyBSb21hbikvRm9udE5hbWUvVGltZXNOZXdSb21hblBTTVQvRm9udFN0cmV0Y2gvTm9ybWFsL0ZvbnRXZWlnaHQgNDAwL0l0YWxpY0FuZ2xlIDAvU3RlbVYgODIvVHlwZS9Gb250RGVzY3JpcHRvci9YSGVpZ2h0IC01NDY+Pg0KZW5kb2JqDQp4cmVmDQowIDkNCjAwMDAwMDAwMDAgNjU1MzUgZg0KMDAwMDAwMDAxNyAwMDAwMCBuDQowMDAwMDAwMDY2IDAwMDAwIG4NCjAwMDAwMDAxMjIgMDAwMDAgbg0KMDAwMDAwMDIwOSAwMDAwMCBuDQowMDAwMDAwNDMyIDAwMDAwIG4NCjAwMDAwMDA2MjEgMDAwMDAgbg0KMDAwMDAwMDY5OSAwMDAwMCBuDQowMDAwMDAxMDY0IDAwMDAwIG4NCnRyYWlsZXINCjw8DQovUm9vdCAxIDAgUg0KL0luZm8gMyAwIFINCi9TaXplIDkvSURbPDQ1NUVGNzk2MkIzNTUwNjRENzBEMzAwNEY1RTQzMTY2Pjw0NTVFRjc5NjJCMzU1MDY0RDcwRDMwMDRGNUU0MzE2Nj5dPj4NCnN0YXJ0eHJlZg0KMTMxMA0KJSVFT0Y=",
+      "mimeCode": "PDF",
+      "FileName": "PO01.pdf",
+      "ExternalReferenceID": ""
+    }
+  ],
+  "AccountingSupplierParty": {
+    "AccountingSupplierParty.SellerCode": "",
+    "AccountingSupplierParty.EndpointID": {
+      "AccountingSupplierParty.schemeID": "0235",
+      "AccountingSupplierParty.SellerElectronicAddress": "1050180205"
+    },
+    "AccountingSupplierParty.PartyIdentification": [
+      {
+        "SellerLegalSchemeIdentifier": "",
+        "SellerLegalRegistrationType": "TL",
+        "SellerCommercialorTradelicense": "6223",
+        "SellerEmiratesID": "",
+        "SellerPassport": "",
+        "SellerCabinetDecision": "",
+        "SellerAuthorityname": "Trade License issuing Authority",
+        "SellerPassportIssuingCountrycode": "AE"
+      }
+    ],
+    "AccountingSupplierParty.PostalAddress": {
+      "AccountingSupplierParty.StreetName": "Sheikh Mohammed bin Rashid Blvd",
+      "AccountingSupplierParty.AdditionalStreetName": "Burj Khalifa, Level 45, Downtown Dubai",
+      "AccountingSupplierParty.CityName": "Dubai",
+      "AccountingSupplierParty.CitySubdivisionName": "DXB",
+      "AccountingSupplierParty.PostalZone": "3271",
+      "AccountingSupplierParty.Country": {
+        "AccountingSupplierParty.IdentificationCode": "AE"
+      }
+    },
+    "AccountingSupplierParty.TaxScheme": {
+      "SellerTaxidentifier": "105018020500003",
+      "AccountingSupplierParty.ID": "VAT"
+    },
+    "AccountingSupplierParty.PartyLegalEntity": {
+      "AccountingSupplierParty.RegistrationName": "Taxilla Finops 360 FZCO",
+      "AccountingSupplierParty.CompanyID": "100041287300003"
+    },
+    "AccountingSupplierParty.Contact": {
+      "AccountingSupplierParty.Name": "Krishna",
+      "AccountingSupplierParty.Telephone": "971520002002",
+      "AccountingSupplierParty.EmailID": "kcenakollu@taxilla.com"
+    }
+  },
+  "AccountingCustomerParty": {
+    "BuyerCode": "",
+    "EndpointID": {
+      "SchemeID": "0235",
+      "BuyerElectronicAddress": "1050180205"
+    },
+    "PartyIdentification": {
+      "ID": "",
+      "BuyerSchemeidentifier": ""
+    },
+    "PostalAddress": {
+      "StreetName": "Business Centre, Sharjah Publishing City Freezone",
+      "AdditionalStreetName": "Emirates Tower, Floor 12",
+      "CityName": "Dubai",
+      "CitySubdivisionName": "DXB",
+      "PostalZone": "85340",
+      "Country": {
+        "IdentificationCode": "AE"
+      }
+    },
+    "PartyTaxScheme": {
+      "CompanyID": "104196887400003",
+      "TaxScheme": {
+        "ID": "VAT",
+        "Buyerlegalregistrationidentifiertype": "TL",
+        "BuyerCommercialorTradelicense": "543234",
+        "BuyerEmiratesID": "",
+        "BuyerPassport": "",
+        "BuyerCabinetDecision": "",
+        "BuyerAuthorityName": "Trade License issuing Authority",
+        "BuyerPassportIssuingCountrycode": ""
+      },
+      "PartyLegalEntity": {
+        "RegistrationName": "TRONSTRIDE FZC",
+        "CompanyID": {
+          "schemeID": "",
+          "RegistrationIdentifier": ""
+        }
+      },
+      "Contact": {
+        "Name": "Mohammad Imran",
+        "Telephone": "971500001001",
+        "ElectronicEmail": "imran@email.com"
+      }
+    }
+  },
+  "Delivery": {
+    "Delivery.ActualDeliveryDate": "2026-04-30",
+    "Delivery.DeliveryLocation": {
+      "Delivery.Name": "Warehouse A - Main Hub",
+      "Delivery.ID": {
+        "Delivery.schemeID": "0235",
+        "Delivery.DeliveryIdentifier": "100041283700003"
+      },
+      "Delivery.PostalAddress": {
+        "Delivery.StreetName": "Palm Avenue",
+        "Delivery.AdditionalStreetName": "Phase 2",
+		"Delivery.CountrySubentity":"DXB",
+        "Delivery.CityName": "Dubai",
+        "Delivery.PostalZone": "85340",
+        "Delivery.Country": {
+          "Delivery.IdentificationCode": "AE"
+        }
+      }
+    },
+    "Delivery.DeliveryParty": {
+      "Delivery.PartyName": "Omar Al Falasi"
+    }
+  },
+  "AllowanceCharge": [
+    {
+      "AllowanceCharge.AllowanceID": "1",
+      "ChargeIndicator": "false",
+      "AllowanceChargeReasonCode": "95",
+	  "AllowanceChargeReason": "Discounts",
+      "MultiplierFactorNumeric": "5",
+      "AllowanceCharge.Amount": {
+        "AllowanceCharge.AllowanceAmount": "150.00"
+      },
+      "AllowanceCharge.BaseAmount": {
+        "AllowanceCharge.BaseAmount.AllowanceDiscountBaseAmount": "3000.00"
+      },
+      "AllowanceCharge.TaxCategory": {
+        "AllowanceCharge.ID": "S",
+        "AllowanceCharge.Percent": "5",
+        "AllowanceCharge.TaxScheme": {
+          "AllowanceCharge.ID": "VAT",
+          "TaxExemptionReasonCode": "",
+          "TaxExemptionReason": ""
+        }
+      }
+    },
+    {
+      "AllowanceCharge.AllowanceID": "2",
+      "ChargeIndicator": "true",
+      "AllowanceChargeReasonCode": "ABL",
+	  "AllowanceChargeReason": "Charges",
+      "MultiplierFactorNumeric": "2.5",
+      "AllowanceCharge.Amount": {
+        "AllowanceCharge.AllowanceAmount": "75.00"
+      },
+      "AllowanceCharge.BaseAmount": {
+        "AllowanceCharge.BaseAmount.AllowanceDiscountBaseAmount": "3000.00"
+      },
+      "AllowanceCharge.TaxCategory": {
+        "AllowanceCharge.ID": "S",
+        "AllowanceCharge.Percent": "5",
+        "AllowanceCharge.TaxScheme": {
+          "AllowanceCharge.ID": "VAT",
+          "TaxExemptionReasonCode": "",
+          "TaxExemptionReason": ""
+        }
+      }
+    }
+  ],
+  "LegalMonetaryTotal": {
+        "LegalMonetaryTotal.LineExtensionAmount.InvoiceLineAmount": 3500.00,
+        "LegalMonetaryTotal.TaxExclusiveAmount.InvoiceLineAmount": 3425.00,
+        "LegalMonetaryTotal.TaxInclusiveAmount.InvoiceLineAmount": 3596.25,
+		"LegalMonetaryTotal.TotalDiscountAmount.InvoiceLineAmount": 150.00,
+        "LegalMonetaryTotal.ChargeTotalAmount.InvoiceLineAmount": 75.00,
+        "LegalMonetaryTotal.PrepaidAmount.InvoiceLineAmount": "100",
+        "PayableRoundingAmount": "",
+        "LegalMonetaryTotal.PayableAmount.InvoiceLineAmount": 3496.25,
+		"LegalMonetaryTotal.TotalTaxAmount.InvoiceLineAmount": 171.25
+
+  },
+ "PaymentMeans": {
+	    "PaymentMeansCode": "30",
+        "PaymentName": "Credit transfer",
+		"PaymentID":"Remittanceinformation",
+		"PrimaryAccountNumberID":"",
+		 "NetworkID":"",
+		 "HolderName":"",
+         "PayeeFinancialAccount.Name": "",
+         "PaymentMeans.FinancialBranch.ID": "",
+		 "PaymentMandate.ID":"",
+		 "PayerFinancialAccount.ID":""
+    },
+    "PaymentTerms": {
+        "PaymentTerms.Note": "Pay by duedate",
+	     "PymtTerms.PayeeAccountID": "IBAN32423940"
+    },
+  "InvoiceLine": [
+    {
+      "InvoiceLine.InvoiceLineIdentifier": "1",
+      "InvoiceLine.InvoicedQuantity": {
+        "InvoiceLine.unitCode": "EA",
+        "InvoiceLine.Quantity": "1"
+      },
+      "LineExtensionAmount": {
+        "InvoiceLine.TaxExclusiveAmount": 3500.00
+      },
+      "InvoiceLine.LineItem": {
+        "InvoiceLine.Description": "Intel i3, 32GB RAM, 512GB SSD, 13-inch screen",
+        "InvoiceLine.Name": "Laptop Dell XPS 15",
+        "Typeofgoodsorservices": "DL8.48.3.3",
+		    "Itemtype": "Goods",
+        "ServiceAccountingcode": "480100000000",
+        "ServiceAccountingSchemeidentifier": "SAC",
+        "StandardItemIdentification": {
+          "InvoiceLine.StandardItemIdentification.schemeID": "",
+          "InvoiceLine.StandardItemIdentification.SchemeIDCode": ""
+        },
+        "CommodityClassification": {
+          "CommodityClassification.listID": "HS",
+          "CommodityClassification.Itemcode": "480100000000"
+        },
+        "ClassifiedTaxCategory": {
+          "ClassifiedTaxCategory.ID": "S",
+          "ClassifiedTaxCategory.Percent": "5",
+          "ClassifiedTaxCategory.TaxSchemeId": "VAT",
+          "ClassifiedTaxCategory.TaxExemptionReasonCode": "",
+          "ClassifiedTaxCategory.TaxExemptionReason": ""
+        },
+        "LineAllowanceCharge": [
+          {
+            "InvoiceLine.LineAllowanceCharge.LineAllowanceCharge.LineAllowanceID": "3",
+            "LineAllowanceCharge.ChargeIndicator": "false",
+            "LineAllowanceCharge.AllowanceChargeReasonCode": "42",
+            "LineAllowanceCharge.MultiplierFactorNumeric": "10",
+            "LineAllowanceCharge.Amount": {
+              "LineAllowanceCharge.CurrencyID": "",
+              "LineAllowanceCharge.AllowanceAmount": 2341.00
+            },
+            "BaseAmount": {
+              "LineAllowanceCharge.Base.CurrencyID": "",
+              "LineAllowanceCharge.Base.AllowanceChargeBaseAmount": 23410.00
+            }
+          },
+          {
+            "InvoiceLine.LineAllowanceCharge.LineAllowanceCharge.LineAllowanceID": "4",
+            "LineAllowanceCharge.ChargeIndicator": "true",
+            "LineAllowanceCharge.AllowanceChargeReasonCode": "DAN",
+            "LineAllowanceCharge.MultiplierFactorNumeric": "10",
+            "LineAllowanceCharge.Amount": {
+              "LineAllowanceCharge.CurrencyID": "",
+              "LineAllowanceCharge.AllowanceAmount": 2341.00
+            },
+            "BaseAmount": {
+              "LineAllowanceCharge.Base.CurrencyID": "",
+              "LineAllowanceCharge.Base.AllowanceChargeBaseAmount": 23410.00
+            }
+          }
+        ],
+       "Price": {
+                    "Price.BaseQuantity": "1",
+                    "Price.BaseQuantityUOM": "EA",
+                    "Price.PriceAmount": {
+                        "Price.PriceAmount": 3500.00
+                    },
+                    "AlwChg": {
+                        "Amt": 1500,
+                        "BaseAmt": 5000.00
+          }
+        }
+      }
+    }
+  ]
+}
+
