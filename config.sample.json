@@ -1,0 +1,12 @@
+{
+  "base_url": "https://live.taxilla.com",
+  "token_endpoint": "/oauth2/v1/token",
+  "post_endpoint": "/process/v1/einvoicear",
+  "report_endpoint": "/process/v1/einvoicear/reports/Peppol_JSON_Standard_Error_Report",
+  "financial_year": "2026",
+  "transformation_name": "eInvoice-Peppol-Json",
+  "client_id": "your-client-id",
+  "client_secret": "your-client-secret"
+
+}
+
