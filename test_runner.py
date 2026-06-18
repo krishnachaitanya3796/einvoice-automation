@@ -8,8 +8,8 @@ from assertions import validate_result
 
 
 REPORT_FILE = "results/execution_report.xlsx"
-START_FROM = 26
-END_AT = 33
+START_FROM = 67
+END_AT = 76
 
 # Load config
 with open("config.json") as f:
@@ -394,8 +394,437 @@ test_scenarios = [
     "mutation_type": "replace",
     "mutation_value": "IN",
     "expected_result": "SUCCESS"
-}
+},
+{
+    "id": "UAE034",
+    "scenario": "Document Allowance missing VAT category",
+    "field_path": "AllowanceCharge[0]>AllowanceCharge.TaxCategory>AllowanceCharge.ID",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+},
+{
+    "id": "UAE035",
+    "scenario": "Document Charge missing VAT category",
+    "field_path": "AllowanceCharge[1]>AllowanceCharge.TaxCategory>AllowanceCharge.ID",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+},
+{
+    "id": "UAE036",
+    "scenario": "Allowance Base present without Percentage",
+    "field_path": "AllowanceCharge[0]>MultiplierFactorNumeric",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+},
+{
+    "id": "UAE037",
+    "scenario": "Charge Base present without Percentage",
+    "field_path": "AllowanceCharge[1]>MultiplierFactorNumeric",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+},
+{
+    "id": "UAE038",
+    "scenario": "Line Reverse Charge without VAT Rate",
+    "field_path": "InvoiceLine[0]>InvoiceLine.LineItem>ClassifiedTaxCategory>ClassifiedTaxCategory.Percent",
+    "pre_mutations": [
+        {
+            "field_path": "InvoiceLine[0]>InvoiceLine.LineItem>ClassifiedTaxCategory>ClassifiedTaxCategory.ID",
+            "mutation_value": "AE"
+        }
+    ],
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+},
+{
+    "id": "UAE039",
+    "scenario": "Allowance Reverse Charge with zero VAT Rate",
+    "pre_mutations": [
+        {
+            "field_path": "AllowanceCharge[0]>AllowanceCharge.TaxCategory>AllowanceCharge.ID",
+            "mutation_value": "AE"
+        }
+    ],
+    "field_path": "AllowanceCharge[0]>AllowanceCharge.TaxCategory>AllowanceCharge.Percent",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+},
+{
+    "id": "UAE040",
+    "scenario": "Charge Reverse Charge with zero VAT Rate",
+    "pre_mutations": [
+        {
+            "field_path": "AllowanceCharge[1]>AllowanceCharge.TaxCategory>AllowanceCharge.ID",
+            "mutation_value": "AE"
+        }
+    ],
+    "field_path": "AllowanceCharge[1]>AllowanceCharge.TaxCategory>AllowanceCharge.Percent",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+},
+{
+    "id": "UAE041",
+    "scenario": "Foreign Currency without VAT Accounting Currency",
+    "field_path": "DocumentCurrencyCode",
+    "mutation_type": "replace",
+    "mutation_value": "USD",
+    "expected_result": "FAILED"
+},
 
+{
+    "id": "UAE042",
+    "scenario": "Foreign Currency with VAT Accounting Currency but missing Exchange Rate",
+    "pre_mutations": [
+        {"field_path": "DocumentCurrencyCode", "mutation_value": "USD"},
+        {"field_path": "VATCurrencyCode", "mutation_value": "AED"}
+    ],
+    "field_path": "ExchangeRate",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+},
+
+{
+    "id": "UAE043",
+    "scenario": "Foreign Currency with Exchange Rate but missing VAT Amount in Accounting Currency",
+    "pre_mutations": [
+        {"field_path": "DocumentCurrencyCode", "mutation_value": "USD"},
+        {"field_path": "VATCurrencyCode", "mutation_value": "AED"},
+        {"field_path": "ExchangeRate", "mutation_value": "3.670000"}
+    ],
+    "field_path": "TotalVATamountinAccountingCurrency",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+},
+
+{
+    "id": "UAE044",
+    "scenario": "Foreign Currency complete valid setup",
+    "pre_mutations": [
+        {"field_path": "DocumentCurrencyCode", "mutation_value": "USD"},
+        {"field_path": "VATCurrencyCode", "mutation_value": "AED"},
+        {"field_path": "ExchangeRate", "mutation_value": "3.670000"}
+    ],
+    "field_path": "TotalVATamountinAccountingCurrency",
+    "mutation_type": "replace",
+    "mutation_value": "171.25",
+    "expected_result": "SUCCESS"
+},
+
+{
+    "id": "UAE045",
+    "scenario": "Foreign Currency Exchange Rate more than 6 decimals",
+    "pre_mutations": [
+        {"field_path": "DocumentCurrencyCode", "mutation_value": "USD"},
+        {"field_path": "VATCurrencyCode", "mutation_value": "AED"}
+    ],
+    "field_path": "ExchangeRate",
+    "mutation_type": "replace",
+    "mutation_value": "3.6700001",
+    "expected_result": "FAILED"
+},
+
+{
+    "id": "UAE046",
+    "scenario": "Foreign Currency Exchange Rate exactly 6 decimals",
+    "pre_mutations": [
+        {"field_path": "DocumentCurrencyCode", "mutation_value": "USD"},
+        {"field_path": "VATCurrencyCode", "mutation_value": "AED"}
+    ],
+    "field_path": "ExchangeRate",
+    "mutation_type": "replace",
+    "mutation_value": "3.670000",
+    "expected_result": "SUCCESS"
+},
+{
+    "id": "UAE047",
+    "scenario": "Billing Reference ID without Issue Date",
+    "field_path": "BillingReference[0]>BillingReference.InvoiceDocumentReference.IssueDate",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+},
+
+{
+    "id": "UAE048",
+    "scenario": "Billing Reference complete",
+    "pre_mutations": [
+        {"field_path": "BillingReference[0]>BillingReference.InvoiceDocumentReference.ID", "mutation_value": "INV-REF-1001"}
+    ],
+    "field_path": "BillingReference[0]>BillingReference.InvoiceDocumentReference.IssueDate",
+    "mutation_type": "replace",
+    "mutation_value": "2026-04-01",
+    "expected_result": "SUCCESS"
+},
+
+{
+    "id": "UAE049",
+    "scenario": "Additional Document missing type code",
+    "field_path": "AdditionalDocumentDetails[0]>DocumentTypecode",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+},
+
+{
+    "id": "UAE050",
+    "scenario": "Additional Document with invalid mime code",
+    "field_path": "AdditionalDocumentDetails[0]>mimeCode",
+    "mutation_type": "replace",
+    "mutation_value": "TXT",
+    "expected_result": "FAILED"
+},
+
+{
+    "id": "UAE051",
+    "scenario": "Additional Document valid",
+    "field_path": "AdditionalDocumentDetails[0]>mimeCode",
+    "mutation_type": "replace",
+    "mutation_value": "PDF",
+    "expected_result": "SUCCESS"
+},
+
+{
+    "id": "UAE052",
+    "scenario": "Contract Reference missing contract number",
+    "field_path": "ContractDocumentReference[0]>ContractDocumentReference.Number",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+},
+
+{
+    "id": "UAE053",
+    "scenario": "Contract Reference valid",
+    "field_path": "ContractDocumentReference[0]>ContractDocumentReference.Number",
+    "mutation_type": "replace",
+    "mutation_value": "Contract-456",
+    "expected_result": "SUCCESS"
+},
+{
+    "id": "UAE054",
+    "scenario": "Purchase Order missing",
+    "field_path": "Purchaseorderreference",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "SUCCESS"
+},
+
+{
+    "id": "UAE055",
+    "scenario": "Sales Order missing",
+    "field_path": "Salesorderreference",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "SUCCESS"
+},
+
+{
+    "id": "UAE056",
+    "scenario": "Despatch Advice missing",
+    "field_path": "Despatchadvicereference",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "SUCCESS"
+},
+{
+    "id": "UAE057",
+    "scenario": "Payment Means Code missing",
+    "field_path": "PaymentMeans>PaymentMeansCode",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+},
+
+{
+    "id": "UAE058",
+    "scenario": "Payment Means valid",
+    "field_path": "PaymentMeans>PaymentMeansCode",
+    "mutation_type": "replace",
+    "mutation_value": "30",
+    "expected_result": "SUCCESS"
+},
+
+{
+    "id": "UAE059",
+    "scenario": "Payment Terms note missing",
+    "field_path": "PaymentTerms>PaymentTerms.Note",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "SUCCESS"
+},
+
+{
+    "id": "UAE060",
+    "scenario": "Payee Account ID missing",
+    "field_path": "PaymentTerms>PymtTerms.PayeeAccountID",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "SUCCESS"
+},
+
+{
+    "id": "UAE061",
+    "scenario": "Payment Name missing",
+    "field_path": "PaymentMeans>PaymentName",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "SUCCESS"
+},
+
+{
+    "id": "UAE062",
+    "scenario": "Payment ID missing",
+    "field_path": "PaymentMeans>PaymentID",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "SUCCESS"
+},
+
+{
+    "id": "UAE063",
+    "scenario": "Primary Account Number present without Network ID",
+    "pre_mutations": [
+        {"field_path": "PaymentMeans>PrimaryAccountNumberID", "mutation_value": "4111111111111111"}
+    ],
+    "field_path": "PaymentMeans>NetworkID",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+},
+
+{
+    "id": "UAE064",
+    "scenario": "Primary Account Number with Network ID",
+    "pre_mutations": [
+        {"field_path": "PaymentMeans>PrimaryAccountNumberID", "mutation_value": "4111111111111111"}
+    ],
+    "field_path": "PaymentMeans>NetworkID",
+    "mutation_type": "replace",
+    "mutation_value": "VISA",
+    "expected_result": "SUCCESS"
+},
+
+{
+    "id": "UAE065",
+    "scenario": "Payment Mandate without Payer Account",
+    "pre_mutations": [
+        {"field_path": "PaymentMeans>PaymentMandate.ID", "mutation_value": "MANDATE001"}
+    ],
+    "field_path": "PaymentMeans>PayerFinancialAccount.ID",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+},
+
+{
+    "id": "UAE066",
+    "scenario": "Payment Mandate with Payer Account",
+    "pre_mutations": [
+        {"field_path": "PaymentMeans>PaymentMandate.ID", "mutation_value": "MANDATE001"}
+    ],
+    "field_path": "PaymentMeans>PayerFinancialAccount.ID",
+    "mutation_type": "replace",
+    "mutation_value": "AE070331234567890123456",
+    "expected_result": "SUCCESS"
+},
+{
+    "id": "UAE067",
+    "scenario": "Seller Endpoint missing",
+    "field_path": "AccountingSupplierParty>AccountingSupplierParty.EndpointID>AccountingSupplierParty.SellerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+},
+
+{
+    "id": "UAE068",
+    "scenario": "Seller Endpoint Scheme missing",
+    "field_path": "AccountingSupplierParty>AccountingSupplierParty.EndpointID>AccountingSupplierParty.schemeID",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+},
+
+{
+    "id": "UAE069",
+    "scenario": "Buyer Endpoint missing",
+    "field_path": "AccountingCustomerParty>EndpointID>BuyerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+},
+
+{
+    "id": "UAE070",
+    "scenario": "Buyer Endpoint Scheme missing",
+    "field_path": "AccountingCustomerParty>EndpointID>SchemeID",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+},
+
+{
+    "id": "UAE071",
+    "scenario": "Seller Contact Name missing",
+    "field_path": "AccountingSupplierParty>AccountingSupplierParty.Contact>AccountingSupplierParty.Name",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "SUCCESS"
+},
+
+{
+    "id": "UAE072",
+    "scenario": "Seller Contact Phone missing",
+    "field_path": "AccountingSupplierParty>AccountingSupplierParty.Contact>AccountingSupplierParty.Telephone",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "SUCCESS"
+},
+
+{
+    "id": "UAE073",
+    "scenario": "Seller Contact Email missing",
+    "field_path": "AccountingSupplierParty>AccountingSupplierParty.Contact>AccountingSupplierParty.EmailID",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "SUCCESS"
+},
+
+{
+    "id": "UAE074",
+    "scenario": "Buyer Contact Name missing",
+    "field_path": "AccountingCustomerParty>PartyTaxScheme>Contact>Name",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "SUCCESS"
+},
+
+{
+    "id": "UAE075",
+    "scenario": "Buyer Contact Phone missing",
+    "field_path": "AccountingCustomerParty>PartyTaxScheme>Contact>Telephone",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "SUCCESS"
+},
+
+{
+    "id": "UAE076",
+    "scenario": "Buyer Contact Email missing",
+    "field_path": "AccountingCustomerParty>PartyTaxScheme>Contact>ElectronicEmail",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "SUCCESS"
+},
 ]
 
 results = []
@@ -450,19 +879,21 @@ for scenario in test_scenarios:
 )
 
     results.append({
-        "Execution Time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "Test ID": scenario["id"],
-        "Scenario": scenario["scenario"],
-        "Reference Number": payload["ReferenceNumber"],
-        "Invoice ID": payload["InvoiceID"],
-        "Field Tested": scenario["field_path"],
-        "Mutation Type": scenario["mutation_type"],
-        "Mutation Value": scenario["mutation_value"],
-        "Expected Result": scenario["expected_result"],
-        "Actual Error": actual_error,
-        "Defect Status": "YES" if result == "FAIL" else "NO",
-        "Final Result": result
-    })
+    "Execution Time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+    "Test ID": scenario["id"],
+    "Scenario": scenario["scenario"],
+    "Reference Number": payload["ReferenceNumber"],
+    "Invoice ID": payload["InvoiceID"],
+    "Field Tested": scenario["field_path"],
+    "Mutation Type": scenario["mutation_type"],
+    "Mutation Value": scenario["mutation_value"],
+    "Expected Result": scenario["expected_result"],
+    "Error From": report_response.get("Invoice", {}).get("ErrorFrom", ""),
+    "Status": report_response.get("Invoice", {}).get("Status", ""),
+    "Actual Error": actual_error,
+    "Defect Status": "YES" if result == "FAIL" else "NO",
+    "Final Result": result
+})
 
     print("FINAL RESULT:", result)
 
