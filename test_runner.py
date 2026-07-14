@@ -7,7 +7,7 @@ from mutation_engine import apply_mutation
 
 REPORT_FILE = "results/oman_execution_report.xlsx"
 START_FROM = 1
-END_AT = 300
+END_AT = 1075
 
 # Load configurations and data
 with open("config.json") as f:
