@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "OM0001",
+    "scenario": "SellerDetails.SellerElectronicAddress negative validation using value ''",
+    "field_path": "SellerDetails.SellerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0002",
+    "scenario": "SellerDetails.SellerElectronicAddressSchemeidentifier negative validation using value ''",
+    "field_path": "SellerDetails.SellerElectronicAddressSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0003",
+    "scenario": "SellerDetails.SellerVATIdentifier negative validation using value ''",
+    "field_path": "SellerDetails.SellerVATIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0004",
+    "scenario": "SellerDetails.SellerCountryCode negative validation using value ''",
+    "field_path": "SellerDetails.SellerCountryCode",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0005",
+    "scenario": "BuyerDetails.BuyerElectronicAddress negative validation using value ''",
+    "field_path": "BuyerDetails.BuyerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0006",
+    "scenario": "BuyerDetails.BuyerElectronicAddressSchemeidentifier negative validation using value ''",
+    "field_path": "BuyerDetails.BuyerElectronicAddressSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0007",
+    "scenario": "BuyerDetails.BuyerVATIdentifier negative validation using value ''",
+    "field_path": "BuyerDetails.BuyerVATIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0008",
+    "scenario": "BuyerDetails.BuyerCountryCode negative validation using value ''",
+    "field_path": "BuyerDetails.BuyerCountryCode",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0009",
+    "scenario": "Invoiceissuedate negative validation using value ''",
+    "field_path": "Invoiceissuedate",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0010",
+    "scenario": "Invoiceissuetime negative validation using value ''",
+    "field_path": "Invoiceissuetime",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0011",
+    "scenario": "Paymentduedate negative validation using value ''",
+    "field_path": "Paymentduedate",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0012",
+    "scenario": "Invoicecurrencycode negative validation using value ''",
+    "field_path": "Invoicecurrencycode",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0013",
+    "scenario": "Invoicetypecode negative validation using value ''",
+    "field_path": "Invoicetypecode",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0014",
+    "scenario": "Invoicetransactiontype negative validation using value ''",
+    "field_path": "Invoicetransactiontype",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0015",
+    "scenario": "VATBREAKDOWN.VATCategoryCode negative validation using value ''",
+    "field_path": "VATBREAKDOWN.VATCategoryCode",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0016",
+    "scenario": "VATBREAKDOWN.VATcategoryrate negative validation using value ''",
+    "field_path": "VATBREAKDOWN.VATcategoryrate",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0017",
+    "scenario": "DOCUMENTTOTALS.InvoicetotalamountwithTAX negative validation using value ''",
+    "field_path": "DOCUMENTTOTALS.InvoicetotalamountwithTAX",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0018",
+    "scenario": "DOCUMENTTOTALS.InvoicetotalTAXamount negative validation using value ''",
+    "field_path": "DOCUMENTTOTALS.InvoicetotalTAXamount",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0019",
+    "scenario": "DOCUMENTTOTALS.Amountdueforpayment negative validation using value ''",
+    "field_path": "DOCUMENTTOTALS.Amountdueforpayment",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0020",
+    "scenario": "InvoiceLine[0].InvoicedQuantity negative validation using value ''",
+    "field_path": "InvoiceLine[0].InvoicedQuantity",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0021",
+    "scenario": "InvoiceLine[0].InvoicedquantityUOMCode negative validation using value ''",
+    "field_path": "InvoiceLine[0].InvoicedquantityUOMCode",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0022",
+    "scenario": "InvoiceLine[0].PRICEDETAILS.ItemUnitPrice negative validation using value ''",
+    "field_path": "InvoiceLine[0].PRICEDETAILS.ItemUnitPrice",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0023",
+    "scenario": "InvoiceLine[0].PRICEDETAILS.Itemnetprice negative validation using value ''",
+    "field_path": "InvoiceLine[0].PRICEDETAILS.Itemnetprice",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0024",
+    "scenario": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATcategorycode negative validation using value ''",
+    "field_path": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATcategorycode",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0025",
+    "scenario": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATrate negative validation using value ''",
+    "field_path": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATrate",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0026",
+    "scenario": "InvoiceLine[0].VATAmountandTotalatLineItem.LineItemVATAmount negative validation using value ''",
+    "field_path": "InvoiceLine[0].VATAmountandTotalatLineItem.LineItemVATAmount",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0027",
+    "scenario": "InvoiceLine[0].ITEM.ItemClassificationIdentifier negative validation using value ''",
+    "field_path": "InvoiceLine[0].ITEM.ItemClassificationIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0028",
+    "scenario": "InvoiceLine[0].ITEM.ItemClassificationSchemeidentifier negative validation using value ''",
+    "field_path": "InvoiceLine[0].ITEM.ItemClassificationSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0029",
+    "scenario": "InvoiceLine[0].ITEM.IndustrialClassificationCode negative validation using value ''",
+    "field_path": "InvoiceLine[0].ITEM.IndustrialClassificationCode",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0030",
+    "scenario": "PAYMENTINSTRUCTIONS.Paymentmeanstypecode negative validation using value ''",
+    "field_path": "PAYMENTINSTRUCTIONS.Paymentmeanstypecode",
+    "mutation_type": "replace",
+    "mutation_value": "",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0031",
+    "scenario": "SellerDetails.SellerElectronicAddress negative validation using value ' '",
+    "field_path": "SellerDetails.SellerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0032",
+    "scenario": "SellerDetails.SellerElectronicAddressSchemeidentifier negative validation using value ' '",
+    "field_path": "SellerDetails.SellerElectronicAddressSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0033",
+    "scenario": "SellerDetails.SellerVATIdentifier negative validation using value ' '",
+    "field_path": "SellerDetails.SellerVATIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0034",
+    "scenario": "SellerDetails.SellerCountryCode negative validation using value ' '",
+    "field_path": "SellerDetails.SellerCountryCode",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0035",
+    "scenario": "BuyerDetails.BuyerElectronicAddress negative validation using value ' '",
+    "field_path": "BuyerDetails.BuyerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0036",
+    "scenario": "BuyerDetails.BuyerElectronicAddressSchemeidentifier negative validation using value ' '",
+    "field_path": "BuyerDetails.BuyerElectronicAddressSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0037",
+    "scenario": "BuyerDetails.BuyerVATIdentifier negative validation using value ' '",
+    "field_path": "BuyerDetails.BuyerVATIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0038",
+    "scenario": "BuyerDetails.BuyerCountryCode negative validation using value ' '",
+    "field_path": "BuyerDetails.BuyerCountryCode",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0039",
+    "scenario": "Invoiceissuedate negative validation using value ' '",
+    "field_path": "Invoiceissuedate",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0040",
+    "scenario": "Invoiceissuetime negative validation using value ' '",
+    "field_path": "Invoiceissuetime",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0041",
+    "scenario": "Paymentduedate negative validation using value ' '",
+    "field_path": "Paymentduedate",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0042",
+    "scenario": "Invoicecurrencycode negative validation using value ' '",
+    "field_path": "Invoicecurrencycode",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0043",
+    "scenario": "Invoicetypecode negative validation using value ' '",
+    "field_path": "Invoicetypecode",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0044",
+    "scenario": "Invoicetransactiontype negative validation using value ' '",
+    "field_path": "Invoicetransactiontype",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0045",
+    "scenario": "VATBREAKDOWN.VATCategoryCode negative validation using value ' '",
+    "field_path": "VATBREAKDOWN.VATCategoryCode",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0046",
+    "scenario": "VATBREAKDOWN.VATcategoryrate negative validation using value ' '",
+    "field_path": "VATBREAKDOWN.VATcategoryrate",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0047",
+    "scenario": "DOCUMENTTOTALS.InvoicetotalamountwithTAX negative validation using value ' '",
+    "field_path": "DOCUMENTTOTALS.InvoicetotalamountwithTAX",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0048",
+    "scenario": "DOCUMENTTOTALS.InvoicetotalTAXamount negative validation using value ' '",
+    "field_path": "DOCUMENTTOTALS.InvoicetotalTAXamount",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0049",
+    "scenario": "DOCUMENTTOTALS.Amountdueforpayment negative validation using value ' '",
+    "field_path": "DOCUMENTTOTALS.Amountdueforpayment",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0050",
+    "scenario": "InvoiceLine[0].InvoicedQuantity negative validation using value ' '",
+    "field_path": "InvoiceLine[0].InvoicedQuantity",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0051",
+    "scenario": "InvoiceLine[0].InvoicedquantityUOMCode negative validation using value ' '",
+    "field_path": "InvoiceLine[0].InvoicedquantityUOMCode",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0052",
+    "scenario": "InvoiceLine[0].PRICEDETAILS.ItemUnitPrice negative validation using value ' '",
+    "field_path": "InvoiceLine[0].PRICEDETAILS.ItemUnitPrice",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0053",
+    "scenario": "InvoiceLine[0].PRICEDETAILS.Itemnetprice negative validation using value ' '",
+    "field_path": "InvoiceLine[0].PRICEDETAILS.Itemnetprice",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0054",
+    "scenario": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATcategorycode negative validation using value ' '",
+    "field_path": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATcategorycode",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0055",
+    "scenario": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATrate negative validation using value ' '",
+    "field_path": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATrate",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0056",
+    "scenario": "InvoiceLine[0].VATAmountandTotalatLineItem.LineItemVATAmount negative validation using value ' '",
+    "field_path": "InvoiceLine[0].VATAmountandTotalatLineItem.LineItemVATAmount",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0057",
+    "scenario": "InvoiceLine[0].ITEM.ItemClassificationIdentifier negative validation using value ' '",
+    "field_path": "InvoiceLine[0].ITEM.ItemClassificationIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0058",
+    "scenario": "InvoiceLine[0].ITEM.ItemClassificationSchemeidentifier negative validation using value ' '",
+    "field_path": "InvoiceLine[0].ITEM.ItemClassificationSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0059",
+    "scenario": "InvoiceLine[0].ITEM.IndustrialClassificationCode negative validation using value ' '",
+    "field_path": "InvoiceLine[0].ITEM.IndustrialClassificationCode",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0060",
+    "scenario": "PAYMENTINSTRUCTIONS.Paymentmeanstypecode negative validation using value ' '",
+    "field_path": "PAYMENTINSTRUCTIONS.Paymentmeanstypecode",
+    "mutation_type": "replace",
+    "mutation_value": " ",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0061",
+    "scenario": "SellerDetails.SellerElectronicAddress negative validation using value 'INVALID'",
+    "field_path": "SellerDetails.SellerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0062",
+    "scenario": "SellerDetails.SellerElectronicAddressSchemeidentifier negative validation using value 'INVALID'",
+    "field_path": "SellerDetails.SellerElectronicAddressSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0063",
+    "scenario": "SellerDetails.SellerVATIdentifier negative validation using value 'INVALID'",
+    "field_path": "SellerDetails.SellerVATIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0064",
+    "scenario": "SellerDetails.SellerCountryCode negative validation using value 'INVALID'",
+    "field_path": "SellerDetails.SellerCountryCode",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0065",
+    "scenario": "BuyerDetails.BuyerElectronicAddress negative validation using value 'INVALID'",
+    "field_path": "BuyerDetails.BuyerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0066",
+    "scenario": "BuyerDetails.BuyerElectronicAddressSchemeidentifier negative validation using value 'INVALID'",
+    "field_path": "BuyerDetails.BuyerElectronicAddressSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0067",
+    "scenario": "BuyerDetails.BuyerVATIdentifier negative validation using value 'INVALID'",
+    "field_path": "BuyerDetails.BuyerVATIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0068",
+    "scenario": "BuyerDetails.BuyerCountryCode negative validation using value 'INVALID'",
+    "field_path": "BuyerDetails.BuyerCountryCode",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0069",
+    "scenario": "Invoiceissuedate negative validation using value 'INVALID'",
+    "field_path": "Invoiceissuedate",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0070",
+    "scenario": "Invoiceissuetime negative validation using value 'INVALID'",
+    "field_path": "Invoiceissuetime",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0071",
+    "scenario": "Paymentduedate negative validation using value 'INVALID'",
+    "field_path": "Paymentduedate",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0072",
+    "scenario": "Invoicecurrencycode negative validation using value 'INVALID'",
+    "field_path": "Invoicecurrencycode",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0073",
+    "scenario": "Invoicetypecode negative validation using value 'INVALID'",
+    "field_path": "Invoicetypecode",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0074",
+    "scenario": "Invoicetransactiontype negative validation using value 'INVALID'",
+    "field_path": "Invoicetransactiontype",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0075",
+    "scenario": "VATBREAKDOWN.VATCategoryCode negative validation using value 'INVALID'",
+    "field_path": "VATBREAKDOWN.VATCategoryCode",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0076",
+    "scenario": "VATBREAKDOWN.VATcategoryrate negative validation using value 'INVALID'",
+    "field_path": "VATBREAKDOWN.VATcategoryrate",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0077",
+    "scenario": "DOCUMENTTOTALS.InvoicetotalamountwithTAX negative validation using value 'INVALID'",
+    "field_path": "DOCUMENTTOTALS.InvoicetotalamountwithTAX",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0078",
+    "scenario": "DOCUMENTTOTALS.InvoicetotalTAXamount negative validation using value 'INVALID'",
+    "field_path": "DOCUMENTTOTALS.InvoicetotalTAXamount",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0079",
+    "scenario": "DOCUMENTTOTALS.Amountdueforpayment negative validation using value 'INVALID'",
+    "field_path": "DOCUMENTTOTALS.Amountdueforpayment",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0080",
+    "scenario": "InvoiceLine[0].InvoicedQuantity negative validation using value 'INVALID'",
+    "field_path": "InvoiceLine[0].InvoicedQuantity",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0081",
+    "scenario": "InvoiceLine[0].InvoicedquantityUOMCode negative validation using value 'INVALID'",
+    "field_path": "InvoiceLine[0].InvoicedquantityUOMCode",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0082",
+    "scenario": "InvoiceLine[0].PRICEDETAILS.ItemUnitPrice negative validation using value 'INVALID'",
+    "field_path": "InvoiceLine[0].PRICEDETAILS.ItemUnitPrice",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0083",
+    "scenario": "InvoiceLine[0].PRICEDETAILS.Itemnetprice negative validation using value 'INVALID'",
+    "field_path": "InvoiceLine[0].PRICEDETAILS.Itemnetprice",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0084",
+    "scenario": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATcategorycode negative validation using value 'INVALID'",
+    "field_path": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATcategorycode",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0085",
+    "scenario": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATrate negative validation using value 'INVALID'",
+    "field_path": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATrate",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0086",
+    "scenario": "InvoiceLine[0].VATAmountandTotalatLineItem.LineItemVATAmount negative validation using value 'INVALID'",
+    "field_path": "InvoiceLine[0].VATAmountandTotalatLineItem.LineItemVATAmount",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0087",
+    "scenario": "InvoiceLine[0].ITEM.ItemClassificationIdentifier negative validation using value 'INVALID'",
+    "field_path": "InvoiceLine[0].ITEM.ItemClassificationIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0088",
+    "scenario": "InvoiceLine[0].ITEM.ItemClassificationSchemeidentifier negative validation using value 'INVALID'",
+    "field_path": "InvoiceLine[0].ITEM.ItemClassificationSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0089",
+    "scenario": "InvoiceLine[0].ITEM.IndustrialClassificationCode negative validation using value 'INVALID'",
+    "field_path": "InvoiceLine[0].ITEM.IndustrialClassificationCode",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0090",
+    "scenario": "PAYMENTINSTRUCTIONS.Paymentmeanstypecode negative validation using value 'INVALID'",
+    "field_path": "PAYMENTINSTRUCTIONS.Paymentmeanstypecode",
+    "mutation_type": "replace",
+    "mutation_value": "INVALID",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0091",
+    "scenario": "SellerDetails.SellerElectronicAddress negative validation using value '@@@@'",
+    "field_path": "SellerDetails.SellerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0092",
+    "scenario": "SellerDetails.SellerElectronicAddressSchemeidentifier negative validation using value '@@@@'",
+    "field_path": "SellerDetails.SellerElectronicAddressSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0093",
+    "scenario": "SellerDetails.SellerVATIdentifier negative validation using value '@@@@'",
+    "field_path": "SellerDetails.SellerVATIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0094",
+    "scenario": "SellerDetails.SellerCountryCode negative validation using value '@@@@'",
+    "field_path": "SellerDetails.SellerCountryCode",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0095",
+    "scenario": "BuyerDetails.BuyerElectronicAddress negative validation using value '@@@@'",
+    "field_path": "BuyerDetails.BuyerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0096",
+    "scenario": "BuyerDetails.BuyerElectronicAddressSchemeidentifier negative validation using value '@@@@'",
+    "field_path": "BuyerDetails.BuyerElectronicAddressSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0097",
+    "scenario": "BuyerDetails.BuyerVATIdentifier negative validation using value '@@@@'",
+    "field_path": "BuyerDetails.BuyerVATIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0098",
+    "scenario": "BuyerDetails.BuyerCountryCode negative validation using value '@@@@'",
+    "field_path": "BuyerDetails.BuyerCountryCode",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0099",
+    "scenario": "Invoiceissuedate negative validation using value '@@@@'",
+    "field_path": "Invoiceissuedate",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0100",
+    "scenario": "Invoiceissuetime negative validation using value '@@@@'",
+    "field_path": "Invoiceissuetime",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0101",
+    "scenario": "Paymentduedate negative validation using value '@@@@'",
+    "field_path": "Paymentduedate",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0102",
+    "scenario": "Invoicecurrencycode negative validation using value '@@@@'",
+    "field_path": "Invoicecurrencycode",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0103",
+    "scenario": "Invoicetypecode negative validation using value '@@@@'",
+    "field_path": "Invoicetypecode",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0104",
+    "scenario": "Invoicetransactiontype negative validation using value '@@@@'",
+    "field_path": "Invoicetransactiontype",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0105",
+    "scenario": "VATBREAKDOWN.VATCategoryCode negative validation using value '@@@@'",
+    "field_path": "VATBREAKDOWN.VATCategoryCode",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0106",
+    "scenario": "VATBREAKDOWN.VATcategoryrate negative validation using value '@@@@'",
+    "field_path": "VATBREAKDOWN.VATcategoryrate",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0107",
+    "scenario": "DOCUMENTTOTALS.InvoicetotalamountwithTAX negative validation using value '@@@@'",
+    "field_path": "DOCUMENTTOTALS.InvoicetotalamountwithTAX",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0108",
+    "scenario": "DOCUMENTTOTALS.InvoicetotalTAXamount negative validation using value '@@@@'",
+    "field_path": "DOCUMENTTOTALS.InvoicetotalTAXamount",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0109",
+    "scenario": "DOCUMENTTOTALS.Amountdueforpayment negative validation using value '@@@@'",
+    "field_path": "DOCUMENTTOTALS.Amountdueforpayment",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0110",
+    "scenario": "InvoiceLine[0].InvoicedQuantity negative validation using value '@@@@'",
+    "field_path": "InvoiceLine[0].InvoicedQuantity",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0111",
+    "scenario": "InvoiceLine[0].InvoicedquantityUOMCode negative validation using value '@@@@'",
+    "field_path": "InvoiceLine[0].InvoicedquantityUOMCode",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0112",
+    "scenario": "InvoiceLine[0].PRICEDETAILS.ItemUnitPrice negative validation using value '@@@@'",
+    "field_path": "InvoiceLine[0].PRICEDETAILS.ItemUnitPrice",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0113",
+    "scenario": "InvoiceLine[0].PRICEDETAILS.Itemnetprice negative validation using value '@@@@'",
+    "field_path": "InvoiceLine[0].PRICEDETAILS.Itemnetprice",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0114",
+    "scenario": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATcategorycode negative validation using value '@@@@'",
+    "field_path": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATcategorycode",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0115",
+    "scenario": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATrate negative validation using value '@@@@'",
+    "field_path": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATrate",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0116",
+    "scenario": "InvoiceLine[0].VATAmountandTotalatLineItem.LineItemVATAmount negative validation using value '@@@@'",
+    "field_path": "InvoiceLine[0].VATAmountandTotalatLineItem.LineItemVATAmount",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0117",
+    "scenario": "InvoiceLine[0].ITEM.ItemClassificationIdentifier negative validation using value '@@@@'",
+    "field_path": "InvoiceLine[0].ITEM.ItemClassificationIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0118",
+    "scenario": "InvoiceLine[0].ITEM.ItemClassificationSchemeidentifier negative validation using value '@@@@'",
+    "field_path": "InvoiceLine[0].ITEM.ItemClassificationSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0119",
+    "scenario": "InvoiceLine[0].ITEM.IndustrialClassificationCode negative validation using value '@@@@'",
+    "field_path": "InvoiceLine[0].ITEM.IndustrialClassificationCode",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0120",
+    "scenario": "PAYMENTINSTRUCTIONS.Paymentmeanstypecode negative validation using value '@@@@'",
+    "field_path": "PAYMENTINSTRUCTIONS.Paymentmeanstypecode",
+    "mutation_type": "replace",
+    "mutation_value": "@@@@",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0121",
+    "scenario": "SellerDetails.SellerElectronicAddress negative validation using value '-1'",
+    "field_path": "SellerDetails.SellerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0122",
+    "scenario": "SellerDetails.SellerElectronicAddressSchemeidentifier negative validation using value '-1'",
+    "field_path": "SellerDetails.SellerElectronicAddressSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0123",
+    "scenario": "SellerDetails.SellerVATIdentifier negative validation using value '-1'",
+    "field_path": "SellerDetails.SellerVATIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0124",
+    "scenario": "SellerDetails.SellerCountryCode negative validation using value '-1'",
+    "field_path": "SellerDetails.SellerCountryCode",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0125",
+    "scenario": "BuyerDetails.BuyerElectronicAddress negative validation using value '-1'",
+    "field_path": "BuyerDetails.BuyerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0126",
+    "scenario": "BuyerDetails.BuyerElectronicAddressSchemeidentifier negative validation using value '-1'",
+    "field_path": "BuyerDetails.BuyerElectronicAddressSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0127",
+    "scenario": "BuyerDetails.BuyerVATIdentifier negative validation using value '-1'",
+    "field_path": "BuyerDetails.BuyerVATIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0128",
+    "scenario": "BuyerDetails.BuyerCountryCode negative validation using value '-1'",
+    "field_path": "BuyerDetails.BuyerCountryCode",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0129",
+    "scenario": "Invoiceissuedate negative validation using value '-1'",
+    "field_path": "Invoiceissuedate",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0130",
+    "scenario": "Invoiceissuetime negative validation using value '-1'",
+    "field_path": "Invoiceissuetime",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0131",
+    "scenario": "Paymentduedate negative validation using value '-1'",
+    "field_path": "Paymentduedate",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0132",
+    "scenario": "Invoicecurrencycode negative validation using value '-1'",
+    "field_path": "Invoicecurrencycode",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0133",
+    "scenario": "Invoicetypecode negative validation using value '-1'",
+    "field_path": "Invoicetypecode",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0134",
+    "scenario": "Invoicetransactiontype negative validation using value '-1'",
+    "field_path": "Invoicetransactiontype",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0135",
+    "scenario": "VATBREAKDOWN.VATCategoryCode negative validation using value '-1'",
+    "field_path": "VATBREAKDOWN.VATCategoryCode",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0136",
+    "scenario": "VATBREAKDOWN.VATcategoryrate negative validation using value '-1'",
+    "field_path": "VATBREAKDOWN.VATcategoryrate",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0137",
+    "scenario": "DOCUMENTTOTALS.InvoicetotalamountwithTAX negative validation using value '-1'",
+    "field_path": "DOCUMENTTOTALS.InvoicetotalamountwithTAX",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0138",
+    "scenario": "DOCUMENTTOTALS.InvoicetotalTAXamount negative validation using value '-1'",
+    "field_path": "DOCUMENTTOTALS.InvoicetotalTAXamount",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0139",
+    "scenario": "DOCUMENTTOTALS.Amountdueforpayment negative validation using value '-1'",
+    "field_path": "DOCUMENTTOTALS.Amountdueforpayment",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0140",
+    "scenario": "InvoiceLine[0].InvoicedQuantity negative validation using value '-1'",
+    "field_path": "InvoiceLine[0].InvoicedQuantity",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0141",
+    "scenario": "InvoiceLine[0].InvoicedquantityUOMCode negative validation using value '-1'",
+    "field_path": "InvoiceLine[0].InvoicedquantityUOMCode",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0142",
+    "scenario": "InvoiceLine[0].PRICEDETAILS.ItemUnitPrice negative validation using value '-1'",
+    "field_path": "InvoiceLine[0].PRICEDETAILS.ItemUnitPrice",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0143",
+    "scenario": "InvoiceLine[0].PRICEDETAILS.Itemnetprice negative validation using value '-1'",
+    "field_path": "InvoiceLine[0].PRICEDETAILS.Itemnetprice",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0144",
+    "scenario": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATcategorycode negative validation using value '-1'",
+    "field_path": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATcategorycode",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0145",
+    "scenario": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATrate negative validation using value '-1'",
+    "field_path": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATrate",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0146",
+    "scenario": "InvoiceLine[0].VATAmountandTotalatLineItem.LineItemVATAmount negative validation using value '-1'",
+    "field_path": "InvoiceLine[0].VATAmountandTotalatLineItem.LineItemVATAmount",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0147",
+    "scenario": "InvoiceLine[0].ITEM.ItemClassificationIdentifier negative validation using value '-1'",
+    "field_path": "InvoiceLine[0].ITEM.ItemClassificationIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0148",
+    "scenario": "InvoiceLine[0].ITEM.ItemClassificationSchemeidentifier negative validation using value '-1'",
+    "field_path": "InvoiceLine[0].ITEM.ItemClassificationSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0149",
+    "scenario": "InvoiceLine[0].ITEM.IndustrialClassificationCode negative validation using value '-1'",
+    "field_path": "InvoiceLine[0].ITEM.IndustrialClassificationCode",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0150",
+    "scenario": "PAYMENTINSTRUCTIONS.Paymentmeanstypecode negative validation using value '-1'",
+    "field_path": "PAYMENTINSTRUCTIONS.Paymentmeanstypecode",
+    "mutation_type": "replace",
+    "mutation_value": "-1",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0151",
+    "scenario": "SellerDetails.SellerElectronicAddress negative validation using value '0'",
+    "field_path": "SellerDetails.SellerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0152",
+    "scenario": "SellerDetails.SellerElectronicAddressSchemeidentifier negative validation using value '0'",
+    "field_path": "SellerDetails.SellerElectronicAddressSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0153",
+    "scenario": "SellerDetails.SellerVATIdentifier negative validation using value '0'",
+    "field_path": "SellerDetails.SellerVATIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0154",
+    "scenario": "SellerDetails.SellerCountryCode negative validation using value '0'",
+    "field_path": "SellerDetails.SellerCountryCode",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0155",
+    "scenario": "BuyerDetails.BuyerElectronicAddress negative validation using value '0'",
+    "field_path": "BuyerDetails.BuyerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0156",
+    "scenario": "BuyerDetails.BuyerElectronicAddressSchemeidentifier negative validation using value '0'",
+    "field_path": "BuyerDetails.BuyerElectronicAddressSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0157",
+    "scenario": "BuyerDetails.BuyerVATIdentifier negative validation using value '0'",
+    "field_path": "BuyerDetails.BuyerVATIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0158",
+    "scenario": "BuyerDetails.BuyerCountryCode negative validation using value '0'",
+    "field_path": "BuyerDetails.BuyerCountryCode",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0159",
+    "scenario": "Invoiceissuedate negative validation using value '0'",
+    "field_path": "Invoiceissuedate",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0160",
+    "scenario": "Invoiceissuetime negative validation using value '0'",
+    "field_path": "Invoiceissuetime",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0161",
+    "scenario": "Paymentduedate negative validation using value '0'",
+    "field_path": "Paymentduedate",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0162",
+    "scenario": "Invoicecurrencycode negative validation using value '0'",
+    "field_path": "Invoicecurrencycode",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0163",
+    "scenario": "Invoicetypecode negative validation using value '0'",
+    "field_path": "Invoicetypecode",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0164",
+    "scenario": "Invoicetransactiontype negative validation using value '0'",
+    "field_path": "Invoicetransactiontype",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0165",
+    "scenario": "VATBREAKDOWN.VATCategoryCode negative validation using value '0'",
+    "field_path": "VATBREAKDOWN.VATCategoryCode",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0166",
+    "scenario": "VATBREAKDOWN.VATcategoryrate negative validation using value '0'",
+    "field_path": "VATBREAKDOWN.VATcategoryrate",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0167",
+    "scenario": "DOCUMENTTOTALS.InvoicetotalamountwithTAX negative validation using value '0'",
+    "field_path": "DOCUMENTTOTALS.InvoicetotalamountwithTAX",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0168",
+    "scenario": "DOCUMENTTOTALS.InvoicetotalTAXamount negative validation using value '0'",
+    "field_path": "DOCUMENTTOTALS.InvoicetotalTAXamount",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0169",
+    "scenario": "DOCUMENTTOTALS.Amountdueforpayment negative validation using value '0'",
+    "field_path": "DOCUMENTTOTALS.Amountdueforpayment",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0170",
+    "scenario": "InvoiceLine[0].InvoicedQuantity negative validation using value '0'",
+    "field_path": "InvoiceLine[0].InvoicedQuantity",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0171",
+    "scenario": "InvoiceLine[0].InvoicedquantityUOMCode negative validation using value '0'",
+    "field_path": "InvoiceLine[0].InvoicedquantityUOMCode",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0172",
+    "scenario": "InvoiceLine[0].PRICEDETAILS.ItemUnitPrice negative validation using value '0'",
+    "field_path": "InvoiceLine[0].PRICEDETAILS.ItemUnitPrice",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0173",
+    "scenario": "InvoiceLine[0].PRICEDETAILS.Itemnetprice negative validation using value '0'",
+    "field_path": "InvoiceLine[0].PRICEDETAILS.Itemnetprice",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0174",
+    "scenario": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATcategorycode negative validation using value '0'",
+    "field_path": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATcategorycode",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0175",
+    "scenario": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATrate negative validation using value '0'",
+    "field_path": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATrate",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0176",
+    "scenario": "InvoiceLine[0].VATAmountandTotalatLineItem.LineItemVATAmount negative validation using value '0'",
+    "field_path": "InvoiceLine[0].VATAmountandTotalatLineItem.LineItemVATAmount",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0177",
+    "scenario": "InvoiceLine[0].ITEM.ItemClassificationIdentifier negative validation using value '0'",
+    "field_path": "InvoiceLine[0].ITEM.ItemClassificationIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0178",
+    "scenario": "InvoiceLine[0].ITEM.ItemClassificationSchemeidentifier negative validation using value '0'",
+    "field_path": "InvoiceLine[0].ITEM.ItemClassificationSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0179",
+    "scenario": "InvoiceLine[0].ITEM.IndustrialClassificationCode negative validation using value '0'",
+    "field_path": "InvoiceLine[0].ITEM.IndustrialClassificationCode",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0180",
+    "scenario": "PAYMENTINSTRUCTIONS.Paymentmeanstypecode negative validation using value '0'",
+    "field_path": "PAYMENTINSTRUCTIONS.Paymentmeanstypecode",
+    "mutation_type": "replace",
+    "mutation_value": "0",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0181",
+    "scenario": "SellerDetails.SellerElectronicAddress negative validation using value '999999999999999999999'",
+    "field_path": "SellerDetails.SellerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0182",
+    "scenario": "SellerDetails.SellerElectronicAddressSchemeidentifier negative validation using value '999999999999999999999'",
+    "field_path": "SellerDetails.SellerElectronicAddressSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0183",
+    "scenario": "SellerDetails.SellerVATIdentifier negative validation using value '999999999999999999999'",
+    "field_path": "SellerDetails.SellerVATIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0184",
+    "scenario": "SellerDetails.SellerCountryCode negative validation using value '999999999999999999999'",
+    "field_path": "SellerDetails.SellerCountryCode",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0185",
+    "scenario": "BuyerDetails.BuyerElectronicAddress negative validation using value '999999999999999999999'",
+    "field_path": "BuyerDetails.BuyerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0186",
+    "scenario": "BuyerDetails.BuyerElectronicAddressSchemeidentifier negative validation using value '999999999999999999999'",
+    "field_path": "BuyerDetails.BuyerElectronicAddressSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0187",
+    "scenario": "BuyerDetails.BuyerVATIdentifier negative validation using value '999999999999999999999'",
+    "field_path": "BuyerDetails.BuyerVATIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0188",
+    "scenario": "BuyerDetails.BuyerCountryCode negative validation using value '999999999999999999999'",
+    "field_path": "BuyerDetails.BuyerCountryCode",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0189",
+    "scenario": "Invoiceissuedate negative validation using value '999999999999999999999'",
+    "field_path": "Invoiceissuedate",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0190",
+    "scenario": "Invoiceissuetime negative validation using value '999999999999999999999'",
+    "field_path": "Invoiceissuetime",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0191",
+    "scenario": "Paymentduedate negative validation using value '999999999999999999999'",
+    "field_path": "Paymentduedate",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0192",
+    "scenario": "Invoicecurrencycode negative validation using value '999999999999999999999'",
+    "field_path": "Invoicecurrencycode",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0193",
+    "scenario": "Invoicetypecode negative validation using value '999999999999999999999'",
+    "field_path": "Invoicetypecode",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0194",
+    "scenario": "Invoicetransactiontype negative validation using value '999999999999999999999'",
+    "field_path": "Invoicetransactiontype",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0195",
+    "scenario": "VATBREAKDOWN.VATCategoryCode negative validation using value '999999999999999999999'",
+    "field_path": "VATBREAKDOWN.VATCategoryCode",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0196",
+    "scenario": "VATBREAKDOWN.VATcategoryrate negative validation using value '999999999999999999999'",
+    "field_path": "VATBREAKDOWN.VATcategoryrate",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0197",
+    "scenario": "DOCUMENTTOTALS.InvoicetotalamountwithTAX negative validation using value '999999999999999999999'",
+    "field_path": "DOCUMENTTOTALS.InvoicetotalamountwithTAX",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0198",
+    "scenario": "DOCUMENTTOTALS.InvoicetotalTAXamount negative validation using value '999999999999999999999'",
+    "field_path": "DOCUMENTTOTALS.InvoicetotalTAXamount",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0199",
+    "scenario": "DOCUMENTTOTALS.Amountdueforpayment negative validation using value '999999999999999999999'",
+    "field_path": "DOCUMENTTOTALS.Amountdueforpayment",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0200",
+    "scenario": "InvoiceLine[0].InvoicedQuantity negative validation using value '999999999999999999999'",
+    "field_path": "InvoiceLine[0].InvoicedQuantity",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0201",
+    "scenario": "InvoiceLine[0].InvoicedquantityUOMCode negative validation using value '999999999999999999999'",
+    "field_path": "InvoiceLine[0].InvoicedquantityUOMCode",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0202",
+    "scenario": "InvoiceLine[0].PRICEDETAILS.ItemUnitPrice negative validation using value '999999999999999999999'",
+    "field_path": "InvoiceLine[0].PRICEDETAILS.ItemUnitPrice",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0203",
+    "scenario": "InvoiceLine[0].PRICEDETAILS.Itemnetprice negative validation using value '999999999999999999999'",
+    "field_path": "InvoiceLine[0].PRICEDETAILS.Itemnetprice",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0204",
+    "scenario": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATcategorycode negative validation using value '999999999999999999999'",
+    "field_path": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATcategorycode",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0205",
+    "scenario": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATrate negative validation using value '999999999999999999999'",
+    "field_path": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATrate",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0206",
+    "scenario": "InvoiceLine[0].VATAmountandTotalatLineItem.LineItemVATAmount negative validation using value '999999999999999999999'",
+    "field_path": "InvoiceLine[0].VATAmountandTotalatLineItem.LineItemVATAmount",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0207",
+    "scenario": "InvoiceLine[0].ITEM.ItemClassificationIdentifier negative validation using value '999999999999999999999'",
+    "field_path": "InvoiceLine[0].ITEM.ItemClassificationIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0208",
+    "scenario": "InvoiceLine[0].ITEM.ItemClassificationSchemeidentifier negative validation using value '999999999999999999999'",
+    "field_path": "InvoiceLine[0].ITEM.ItemClassificationSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0209",
+    "scenario": "InvoiceLine[0].ITEM.IndustrialClassificationCode negative validation using value '999999999999999999999'",
+    "field_path": "InvoiceLine[0].ITEM.IndustrialClassificationCode",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0210",
+    "scenario": "PAYMENTINSTRUCTIONS.Paymentmeanstypecode negative validation using value '999999999999999999999'",
+    "field_path": "PAYMENTINSTRUCTIONS.Paymentmeanstypecode",
+    "mutation_type": "replace",
+    "mutation_value": "999999999999999999999",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0211",
+    "scenario": "SellerDetails.SellerElectronicAddress negative validation using value 'ABC'",
+    "field_path": "SellerDetails.SellerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0212",
+    "scenario": "SellerDetails.SellerElectronicAddressSchemeidentifier negative validation using value 'ABC'",
+    "field_path": "SellerDetails.SellerElectronicAddressSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0213",
+    "scenario": "SellerDetails.SellerVATIdentifier negative validation using value 'ABC'",
+    "field_path": "SellerDetails.SellerVATIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0214",
+    "scenario": "SellerDetails.SellerCountryCode negative validation using value 'ABC'",
+    "field_path": "SellerDetails.SellerCountryCode",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0215",
+    "scenario": "BuyerDetails.BuyerElectronicAddress negative validation using value 'ABC'",
+    "field_path": "BuyerDetails.BuyerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0216",
+    "scenario": "BuyerDetails.BuyerElectronicAddressSchemeidentifier negative validation using value 'ABC'",
+    "field_path": "BuyerDetails.BuyerElectronicAddressSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0217",
+    "scenario": "BuyerDetails.BuyerVATIdentifier negative validation using value 'ABC'",
+    "field_path": "BuyerDetails.BuyerVATIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0218",
+    "scenario": "BuyerDetails.BuyerCountryCode negative validation using value 'ABC'",
+    "field_path": "BuyerDetails.BuyerCountryCode",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0219",
+    "scenario": "Invoiceissuedate negative validation using value 'ABC'",
+    "field_path": "Invoiceissuedate",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0220",
+    "scenario": "Invoiceissuetime negative validation using value 'ABC'",
+    "field_path": "Invoiceissuetime",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0221",
+    "scenario": "Paymentduedate negative validation using value 'ABC'",
+    "field_path": "Paymentduedate",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0222",
+    "scenario": "Invoicecurrencycode negative validation using value 'ABC'",
+    "field_path": "Invoicecurrencycode",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0223",
+    "scenario": "Invoicetypecode negative validation using value 'ABC'",
+    "field_path": "Invoicetypecode",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0224",
+    "scenario": "Invoicetransactiontype negative validation using value 'ABC'",
+    "field_path": "Invoicetransactiontype",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0225",
+    "scenario": "VATBREAKDOWN.VATCategoryCode negative validation using value 'ABC'",
+    "field_path": "VATBREAKDOWN.VATCategoryCode",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0226",
+    "scenario": "VATBREAKDOWN.VATcategoryrate negative validation using value 'ABC'",
+    "field_path": "VATBREAKDOWN.VATcategoryrate",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0227",
+    "scenario": "DOCUMENTTOTALS.InvoicetotalamountwithTAX negative validation using value 'ABC'",
+    "field_path": "DOCUMENTTOTALS.InvoicetotalamountwithTAX",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0228",
+    "scenario": "DOCUMENTTOTALS.InvoicetotalTAXamount negative validation using value 'ABC'",
+    "field_path": "DOCUMENTTOTALS.InvoicetotalTAXamount",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0229",
+    "scenario": "DOCUMENTTOTALS.Amountdueforpayment negative validation using value 'ABC'",
+    "field_path": "DOCUMENTTOTALS.Amountdueforpayment",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0230",
+    "scenario": "InvoiceLine[0].InvoicedQuantity negative validation using value 'ABC'",
+    "field_path": "InvoiceLine[0].InvoicedQuantity",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0231",
+    "scenario": "InvoiceLine[0].InvoicedquantityUOMCode negative validation using value 'ABC'",
+    "field_path": "InvoiceLine[0].InvoicedquantityUOMCode",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0232",
+    "scenario": "InvoiceLine[0].PRICEDETAILS.ItemUnitPrice negative validation using value 'ABC'",
+    "field_path": "InvoiceLine[0].PRICEDETAILS.ItemUnitPrice",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0233",
+    "scenario": "InvoiceLine[0].PRICEDETAILS.Itemnetprice negative validation using value 'ABC'",
+    "field_path": "InvoiceLine[0].PRICEDETAILS.Itemnetprice",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0234",
+    "scenario": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATcategorycode negative validation using value 'ABC'",
+    "field_path": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATcategorycode",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0235",
+    "scenario": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATrate negative validation using value 'ABC'",
+    "field_path": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATrate",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0236",
+    "scenario": "InvoiceLine[0].VATAmountandTotalatLineItem.LineItemVATAmount negative validation using value 'ABC'",
+    "field_path": "InvoiceLine[0].VATAmountandTotalatLineItem.LineItemVATAmount",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0237",
+    "scenario": "InvoiceLine[0].ITEM.ItemClassificationIdentifier negative validation using value 'ABC'",
+    "field_path": "InvoiceLine[0].ITEM.ItemClassificationIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0238",
+    "scenario": "InvoiceLine[0].ITEM.ItemClassificationSchemeidentifier negative validation using value 'ABC'",
+    "field_path": "InvoiceLine[0].ITEM.ItemClassificationSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0239",
+    "scenario": "InvoiceLine[0].ITEM.IndustrialClassificationCode negative validation using value 'ABC'",
+    "field_path": "InvoiceLine[0].ITEM.IndustrialClassificationCode",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0240",
+    "scenario": "PAYMENTINSTRUCTIONS.Paymentmeanstypecode negative validation using value 'ABC'",
+    "field_path": "PAYMENTINSTRUCTIONS.Paymentmeanstypecode",
+    "mutation_type": "replace",
+    "mutation_value": "ABC",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0241",
+    "scenario": "SellerDetails.SellerElectronicAddress negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "SellerDetails.SellerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0242",
+    "scenario": "SellerDetails.SellerElectronicAddressSchemeidentifier negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "SellerDetails.SellerElectronicAddressSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0243",
+    "scenario": "SellerDetails.SellerVATIdentifier negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "SellerDetails.SellerVATIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0244",
+    "scenario": "SellerDetails.SellerCountryCode negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "SellerDetails.SellerCountryCode",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0245",
+    "scenario": "BuyerDetails.BuyerElectronicAddress negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "BuyerDetails.BuyerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0246",
+    "scenario": "BuyerDetails.BuyerElectronicAddressSchemeidentifier negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "BuyerDetails.BuyerElectronicAddressSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0247",
+    "scenario": "BuyerDetails.BuyerVATIdentifier negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "BuyerDetails.BuyerVATIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0248",
+    "scenario": "BuyerDetails.BuyerCountryCode negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "BuyerDetails.BuyerCountryCode",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0249",
+    "scenario": "Invoiceissuedate negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "Invoiceissuedate",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0250",
+    "scenario": "Invoiceissuetime negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "Invoiceissuetime",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0251",
+    "scenario": "Paymentduedate negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "Paymentduedate",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0252",
+    "scenario": "Invoicecurrencycode negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "Invoicecurrencycode",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0253",
+    "scenario": "Invoicetypecode negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "Invoicetypecode",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0254",
+    "scenario": "Invoicetransactiontype negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "Invoicetransactiontype",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0255",
+    "scenario": "VATBREAKDOWN.VATCategoryCode negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "VATBREAKDOWN.VATCategoryCode",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0256",
+    "scenario": "VATBREAKDOWN.VATcategoryrate negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "VATBREAKDOWN.VATcategoryrate",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0257",
+    "scenario": "DOCUMENTTOTALS.InvoicetotalamountwithTAX negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "DOCUMENTTOTALS.InvoicetotalamountwithTAX",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0258",
+    "scenario": "DOCUMENTTOTALS.InvoicetotalTAXamount negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "DOCUMENTTOTALS.InvoicetotalTAXamount",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0259",
+    "scenario": "DOCUMENTTOTALS.Amountdueforpayment negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "DOCUMENTTOTALS.Amountdueforpayment",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0260",
+    "scenario": "InvoiceLine[0].InvoicedQuantity negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "InvoiceLine[0].InvoicedQuantity",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0261",
+    "scenario": "InvoiceLine[0].InvoicedquantityUOMCode negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "InvoiceLine[0].InvoicedquantityUOMCode",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0262",
+    "scenario": "InvoiceLine[0].PRICEDETAILS.ItemUnitPrice negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "InvoiceLine[0].PRICEDETAILS.ItemUnitPrice",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0263",
+    "scenario": "InvoiceLine[0].PRICEDETAILS.Itemnetprice negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "InvoiceLine[0].PRICEDETAILS.Itemnetprice",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0264",
+    "scenario": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATcategorycode negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATcategorycode",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0265",
+    "scenario": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATrate negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATrate",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0266",
+    "scenario": "InvoiceLine[0].VATAmountandTotalatLineItem.LineItemVATAmount negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "InvoiceLine[0].VATAmountandTotalatLineItem.LineItemVATAmount",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0267",
+    "scenario": "InvoiceLine[0].ITEM.ItemClassificationIdentifier negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "InvoiceLine[0].ITEM.ItemClassificationIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0268",
+    "scenario": "InvoiceLine[0].ITEM.ItemClassificationSchemeidentifier negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "InvoiceLine[0].ITEM.ItemClassificationSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0269",
+    "scenario": "InvoiceLine[0].ITEM.IndustrialClassificationCode negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "InvoiceLine[0].ITEM.IndustrialClassificationCode",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0270",
+    "scenario": "PAYMENTINSTRUCTIONS.Paymentmeanstypecode negative validation using value '1234567890123456789012345678901234567890'",
+    "field_path": "PAYMENTINSTRUCTIONS.Paymentmeanstypecode",
+    "mutation_type": "replace",
+    "mutation_value": "1234567890123456789012345678901234567890",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0271",
+    "scenario": "SellerDetails.SellerElectronicAddress negative validation using value '2026-99-99'",
+    "field_path": "SellerDetails.SellerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0272",
+    "scenario": "SellerDetails.SellerElectronicAddressSchemeidentifier negative validation using value '2026-99-99'",
+    "field_path": "SellerDetails.SellerElectronicAddressSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0273",
+    "scenario": "SellerDetails.SellerVATIdentifier negative validation using value '2026-99-99'",
+    "field_path": "SellerDetails.SellerVATIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0274",
+    "scenario": "SellerDetails.SellerCountryCode negative validation using value '2026-99-99'",
+    "field_path": "SellerDetails.SellerCountryCode",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0275",
+    "scenario": "BuyerDetails.BuyerElectronicAddress negative validation using value '2026-99-99'",
+    "field_path": "BuyerDetails.BuyerElectronicAddress",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0276",
+    "scenario": "BuyerDetails.BuyerElectronicAddressSchemeidentifier negative validation using value '2026-99-99'",
+    "field_path": "BuyerDetails.BuyerElectronicAddressSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0277",
+    "scenario": "BuyerDetails.BuyerVATIdentifier negative validation using value '2026-99-99'",
+    "field_path": "BuyerDetails.BuyerVATIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0278",
+    "scenario": "BuyerDetails.BuyerCountryCode negative validation using value '2026-99-99'",
+    "field_path": "BuyerDetails.BuyerCountryCode",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0279",
+    "scenario": "Invoiceissuedate negative validation using value '2026-99-99'",
+    "field_path": "Invoiceissuedate",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0280",
+    "scenario": "Invoiceissuetime negative validation using value '2026-99-99'",
+    "field_path": "Invoiceissuetime",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0281",
+    "scenario": "Paymentduedate negative validation using value '2026-99-99'",
+    "field_path": "Paymentduedate",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0282",
+    "scenario": "Invoicecurrencycode negative validation using value '2026-99-99'",
+    "field_path": "Invoicecurrencycode",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0283",
+    "scenario": "Invoicetypecode negative validation using value '2026-99-99'",
+    "field_path": "Invoicetypecode",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0284",
+    "scenario": "Invoicetransactiontype negative validation using value '2026-99-99'",
+    "field_path": "Invoicetransactiontype",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0285",
+    "scenario": "VATBREAKDOWN.VATCategoryCode negative validation using value '2026-99-99'",
+    "field_path": "VATBREAKDOWN.VATCategoryCode",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0286",
+    "scenario": "VATBREAKDOWN.VATcategoryrate negative validation using value '2026-99-99'",
+    "field_path": "VATBREAKDOWN.VATcategoryrate",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0287",
+    "scenario": "DOCUMENTTOTALS.InvoicetotalamountwithTAX negative validation using value '2026-99-99'",
+    "field_path": "DOCUMENTTOTALS.InvoicetotalamountwithTAX",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0288",
+    "scenario": "DOCUMENTTOTALS.InvoicetotalTAXamount negative validation using value '2026-99-99'",
+    "field_path": "DOCUMENTTOTALS.InvoicetotalTAXamount",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0289",
+    "scenario": "DOCUMENTTOTALS.Amountdueforpayment negative validation using value '2026-99-99'",
+    "field_path": "DOCUMENTTOTALS.Amountdueforpayment",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0290",
+    "scenario": "InvoiceLine[0].InvoicedQuantity negative validation using value '2026-99-99'",
+    "field_path": "InvoiceLine[0].InvoicedQuantity",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0291",
+    "scenario": "InvoiceLine[0].InvoicedquantityUOMCode negative validation using value '2026-99-99'",
+    "field_path": "InvoiceLine[0].InvoicedquantityUOMCode",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0292",
+    "scenario": "InvoiceLine[0].PRICEDETAILS.ItemUnitPrice negative validation using value '2026-99-99'",
+    "field_path": "InvoiceLine[0].PRICEDETAILS.ItemUnitPrice",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0293",
+    "scenario": "InvoiceLine[0].PRICEDETAILS.Itemnetprice negative validation using value '2026-99-99'",
+    "field_path": "InvoiceLine[0].PRICEDETAILS.Itemnetprice",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0294",
+    "scenario": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATcategorycode negative validation using value '2026-99-99'",
+    "field_path": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATcategorycode",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0295",
+    "scenario": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATrate negative validation using value '2026-99-99'",
+    "field_path": "InvoiceLine[0].VATINFORMATIONFORINVOICEITEMS.InvoiceditemVATrate",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0296",
+    "scenario": "InvoiceLine[0].VATAmountandTotalatLineItem.LineItemVATAmount negative validation using value '2026-99-99'",
+    "field_path": "InvoiceLine[0].VATAmountandTotalatLineItem.LineItemVATAmount",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0297",
+    "scenario": "InvoiceLine[0].ITEM.ItemClassificationIdentifier negative validation using value '2026-99-99'",
+    "field_path": "InvoiceLine[0].ITEM.ItemClassificationIdentifier",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0298",
+    "scenario": "InvoiceLine[0].ITEM.ItemClassificationSchemeidentifier negative validation using value '2026-99-99'",
+    "field_path": "InvoiceLine[0].ITEM.ItemClassificationSchemeidentifier",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0299",
+    "scenario": "InvoiceLine[0].ITEM.IndustrialClassificationCode negative validation using value '2026-99-99'",
+    "field_path": "InvoiceLine[0].ITEM.IndustrialClassificationCode",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  },
+  {
+    "id": "OM0300",
+    "scenario": "PAYMENTINSTRUCTIONS.Paymentmeanstypecode negative validation using value '2026-99-99'",
+    "field_path": "PAYMENTINSTRUCTIONS.Paymentmeanstypecode",
+    "mutation_type": "replace",
+    "mutation_value": "2026-99-99",
+    "expected_result": "FAILED"
+  }
+]
